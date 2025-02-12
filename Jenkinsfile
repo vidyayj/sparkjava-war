@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('git clone') {
             steps {
-                git url: 'https://github.com/SaiDevOpsFaculty/war-web-project.git', branch: 'master'
+                git url: 'https://github.com/SaiDevOpsFaculty/war-web-project.git', branch: 'main'
             }
         }
         stage('maven build') {
